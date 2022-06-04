@@ -25,3 +25,33 @@ self-education and often read IT-news. My main advantage is my ability to learn 
 * JSP
 * Microservice architecture
 * Cit
+
+## Code Example
+```
+package com.company;
+
+public class Task3_1 {
+    public static void main(String[] args) {
+        double result = minNum();
+        System.out.println(result);
+
+    }
+
+    public static double minNum() {
+        double a = Math.random();
+        System.out.println(a);
+        double b = Math.random();
+        System.out.println(b);
+        if (a < b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+}
+```
+```
+function multiply(a, b){
+  return a * b
+}
+```
