@@ -55,3 +55,14 @@ function multiply(a, b){
   return a * b
 }
 ```
+## Experience
+I have 2 years of commertial experience in the back-end development with Java and Spring framework.
+My training project: [Final task](https://github.com/julia-alshevskaya/final-task) 
+
+## Education
+* Belarusian National Technical University (2009-2015), Faculty of Civil Engineering
+* It Academy
+* Epam Java cources
+
+## English
+B1 (according to EPAM training center test)
