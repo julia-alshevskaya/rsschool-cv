@@ -1,6 +1,6 @@
-main {
-  display: flex;
-
+body {
+  margin: 0;
+  background-color: #faf7f7;
 }
 .personal-info {
   width: 35%;
@@ -8,9 +8,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 15px 0;
+  border-radius: 13px;
+  color: white;
 }
 
-img {
+.personal-info h4 {
+  border-bottom: 2px solid white;
+}
+
+.photo {
   width: 220px;
   border: 1px solid black;
   border-radius: 19px;
@@ -20,4 +27,67 @@ img {
 .professional-info {
   width: 65%;
   background-color: #faf7f7;
+  padding: 0 26px;
+}
+
+.professional-info h4 {
+  border-bottom: 2px solid black;
+}
+
+.professional-info h1 {
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 940px;
+  gap: 5%;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #faf7f7;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.main-container {
+  max-width: 940px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 69px;
+}
+
+.info {
+  width: 232px;
+}
+.info h6 {
+  margin-bottom: 0;
+}
+
+.info p {
+  margin-top: 2px;
+}
+
+.experience-info {
+  display: flex;
+  gap: 35px;
+}
+
+.experience-info p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-weight: bold;
+  font-style: italic;
 }
