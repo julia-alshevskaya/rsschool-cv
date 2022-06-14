@@ -1,86 +1,104 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
   <title>СV</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <div class="container">
+      <a class="link" href="#profile">Profile</a>
+      <a class="link" href="#exp">Experience</a>
+      <a class="link" href="#skills">Skills</a>
+    </div>
+  </header>
   <main>
-    <div class="personal-info">
-      <img src="assets/photo.jpg" alt="Photo" />
-      <div class="info">
-        <h4>Contacts</h4>
-        <h6>Phone</h6>
-        <p>+3752936385**</p>
-        <h6>Email</h6>
-        <p>alsheuskayayuliya1991@gmail.com</p>
-        <h6>Adress</h6>
-        <p>Minsk, Goretskogo Street</p>
+    <div class="main-container">
+      <div class="personal-info">
+        <img class="photo" src="assets/photo.jpg" alt="Photo" />
+        <div class="info">
+          <h4>Contacts</h4>
+          <h6>Phone</h6>
+          <p>+3752936385**</p>
+          <h6>Email</h6>
+          <p>alsheuskayayuliya1991@gmail.com</p>
+          <h6>Adress</h6>
+          <p>Minsk, Goretskogo Street</p>
+        </div>
+        <div class="info">
+          <h4>Education</h4>
+          <p>Belarusian National Technical University (2009-2015), Faculty of Civil Engineering</p>
+          <p>Java EE Courses by EPAM</p>
+        </div>
+        <div class="info">
+          <h4>Language</h4>
+          <p>English B1</p>
+          <p>Dutch A1</p>
+        </div>
       </div>
-      <div class="info">
-        <h4>Education</h4>
-        <p>Belarusian National Technical University (2009-2015), Faculty of Civil Engineering</p>
-        <p>Java EE Courses by EPAM</p>
-      </div>
-      <div class="info">
-        <h4>Language</h4>
-        <p>English B1</p>
-        <p>Dutch A1</p>
-      </div>
-    </div>
-    <div class="professional-info">
-      <h1>Yuliya Alsheuskaya</h1>
-      <p>Web Developer</p>
-      <div class="info">
-        <h4>Profile</h4>
-        <p>My goal is to improve my skills. I've already learnt Java, but now want to learn JS
-          and other tools in web-development technologies. I like
-          self-education and often read IT-news. My main advantage is my ability to learn 
-          quickly and my constant self-improvement. I like to work hard especially in friendly ambitious team.
-           I am action-oriented, accurate, adaptable, hard-working, easy-going. I’m an excellent team player.
-            I am versatile and reliable. Every day I try to be better.</p>
-
-      </div>
-      <div class="info">
-        <h4>Experience</h4>
-        <div class="experience-info">
-          <div>
-            <span>2021-Present</span>
-            <span>Company Name</span>
+      <div class="professional-info">
+        <h1>Yuliya Alsheuskaya</h1>
+        <p>Web Developer</p>
+        <div class="info-prof" id="profile">
+          <h4>Profile</h4>
+          <p>My goal is to improve my skills. I've already learnt Java, but now want to learn JS
+            and other tools in web-development technologies. I like
+            self-education and often read IT-news. My main advantage is my ability to learn 
+            quickly and my constant self-improvement. I like to work hard especially in friendly ambitious team.
+             I am action-oriented, accurate, adaptable, hard-working, easy-going. I’m an excellent team player.
+              I am versatile and reliable. Every day I try to be better.</p>
+  
+        </div>
+        <div class="info-prof" id="exp">
+          <h4>Experience</h4>
+          <div class="experience-info">
+            <div>
+              <p>2021-Present</p>
+              <p>SENLA</p>
+            </div>
+            <div>
+              <p>Junior Java Developer</p>
+              <p>I have 2 years of commertial experience in the back-end development with Java and Spring framework.</p>
+            </div>
           </div>
-          <div>
-            <h6>Junior Java Developer</h6>
-            <p>I have 2 years of commertial experience in the back-end development with Java and Spring framework.</p>
+        </div>
+        <div class="info-prof" id="skills">
+          <h4>Skills</h4>
+          <div class="skills-list">
+            <div>
+              <ul>
+                <li>Java EE</li>
+                <li>Spring MVC</li>
+                <li>Spring Boot</li>
+                <li>Gradle, Maven</li>
+                <li>Hibernate</li>
+                <li>PostgreSQL, Oracle</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Microservice architecture</li>
+                <li>HTML</li>
+                <li>CSS Basics</li>
+                <li>JUnit, TestNG</li>
+                <li>Cit</li>
+                <li>Figma</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="info">
-        <h4>Skills</h4>
-        <div class="skills-list">
-          <div>
-            <ul>
-              <li>Java EE</li>
-              <li>Spring MVC</li>
-              <li>Spring Boot</li>
-              <li>Gradle, Maven</li>
-              <li>Hibernate</li>
-              <li>PostgreSQL, Oracle</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Microservice architecture</li>
-              <li>HTML</li>
-              <li>CSS Basics</li>
-              <li>JUnit, TestNG</li>
-              <li>Cit</li>
-              <li>Figma</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div>   
   </main>
+  <footer>
+    <div class="container">
+      <a href="https://rs.school/js/">
+        <img class="logo" src="assets/logo.svg" alt="logo">
+      </a>
+      <a class="link" href="https://github.com/julia-alshevskaya">Find me here</a>
+      <span class="year">2022</span>
+    </div>
+  </footer>
 </body>
 </html>
